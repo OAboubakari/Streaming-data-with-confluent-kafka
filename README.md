@@ -6,20 +6,18 @@ Getting Started
 Prerequisites
 Python 3.8 or later
 Confluent-kafka-python library
-Confluent Platform 
-Access to Ineuron.ai's datalake
+[Confluent Platform](https://confluent.cloud)
 Installation
 Clone the repository: git clone https://github.com/<username>/confluent-kafka-implementation.git
 Navigate to the project directory: cd confluent-kafka-implementation
 
 Install the required libraries using pip: pip install -r requirements.txt
 Usage
-
 Start the Kafka producer: python producer.py to stream data from Ineuron.ai's datalake
 Start the Kafka consumer: python consumer.py to process and analyze the streamed data
 Additional Resources
-Confluent Platform documentation
-Confluent-kafka-python library documentation
+[Confluent Platform documentation](https://confluent.cloud/learn)
+
 Note
 Please check the confluent documentation for more information on how to configure and run confluent platform and kafka using python. You will need access to a datalake to run the project.
 
