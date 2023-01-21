@@ -11,7 +11,7 @@ Installation:<br>
 Clone the repository:<br> 
 Navigate to the project directory :<br> cd confluent-kafka-implementation <br>
 
-Install the required libraries using pip<br>: pip install -r requirements.txt<br>
+Install the required libraries using pip:<br> pip install -r requirements.txt<br>
 Usage<br>
 Start the Kafka producer: python producer.py to stream data from Ineuron.ai's datalake<br>
 Start the Kafka consumer: python consumer.py to process and analyze the streamed data<br>
